@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.white,
     marginRight: SIZES.small,
     justifyContent: "center",
-    alignItems: "center",
+    paddingLeft: 20,
     borderRadius: SIZES.medium,
     height: "100%",
   },
@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
   tabsContainer: {
     width: "100%",
     marginTop: SIZES.medium,
+    marginBottom: SIZES.medium,
   },
   tab: (activeJobType, item) => ({
     paddingVertical: SIZES.small / 2,
